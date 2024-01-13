@@ -2,15 +2,13 @@
   "name": "Natalia Shport",
   "firstname": "Natalia",
   "lastname": "Shport",
-  "title": "UI / FrontEnd Developer",
-  "email": "shport.natalia@gmail.com",
+  "title": "Frontend/React Developer",
   "address": {
     "street": "3218 W Las Positas Blvd",
     "city": "Pleasanton",
     "state": "CA",
     "zipcode": "94588"
   },
-  "phone": "+1(925)223-7272",
   "website": "shport.info",
   "profiles": [
     {
@@ -31,30 +29,24 @@
     "CSS/CSS3",
     "SASS",
     "XML/XSLT",
-    "Javascript/ES6/JSX",
+    "Javascript/ES6/TypeScript",
     "JSON",
     "jQuery",
     "Bootstrap",
     "Angular",
     "React",
-    "Redux",
+    "Redux/MobX",
     "API",
-    "LAMP/PHP",
     "UNIX/LINUX",
-    "GIT/GitHub",
+    "GIT/GitHub/Bitbucket/GitLab",
     "NPM/YARN",
-    "MySQL",
-    "PostgresQL",
+    "MySQL/PostgreSQL",
     "NoSQL/MongoDB/Firebase",
     "Responsive Web Design",
     "Graphic optimization",
-    "Timeline management",
-    "Task prioritizing",
     "Technical documentation",
-    "Issue resolution",
     "Customer support",
-    "Content management",
-    "Online learning"
+    "Content management"
   ],
   "technologies": [
     {
@@ -115,9 +107,29 @@
   ],
   "experience": [
     {
+      "id": "6",
+      "title": "React Developer",
+      "company": "Spatial Front Inc. (SFI)",
+      "location": "McLean, Virginia",
+      "url": "https://spatialfront.com/",
+      "dates": {
+        "start": {
+          "month": "06",
+          "year": "2021"
+        },
+        "end": {
+          "month": "",
+          "year": "Present"
+        }
+      },
+      "responsibilities": [
+        "Developing user-friendly, responsive and accessible web interfaces using React library in conjunction with MobX for state management, using Jest unit tests for code coverage, and participating in an agile process / React, React Hooks, MobX, TypeScript, Jest, APIs, 508 section"
+      ]
+    },
+    {
       "id": "5",
       "title": "Database Operator",
-      "company": "SATS Technologies.,",
+      "company": "SATS Technologies.",
       "location": "San Mateo, California",
       "url": "https://www.sats.net/",
       "dates": {
@@ -131,8 +143,8 @@
         }
       },
       "responsibilities": [
-        "Handling incoming alerts, problems, requests from automated systems and customers, logging and tracking tasks / JIRA, Slack",
-        "Manipulating data / SQL databases (MySQL, PostgreSQL), SSH"
+        "Handling incoming alerts, requests from automated systems and customers, logging and tracking tasks / JIRA, Slack",
+        "Manipulating data / SQL databases (MySQL, PostgreSQL)"
       ]
     },
     {
@@ -437,7 +449,7 @@
   ],
   "carouselitems": [
     {
-      "title": "UI / Frontend",
+      "title": "Frontend/React",
       "subtitle": "Developer",
       "text": "looking for a position related to React within the San Francisco Bay Area.",
       "image": "/assets/slide-9.jpg",
@@ -447,7 +459,7 @@
     {
       "title": "This page",
       "subtitle": "made with",
-      "text": "Angular 7 templates and Bootstrap UI library",
+      "text": "Angular templates and Bootstrap UI library",
       "image": "/assets/slide-5.jpg",
       "isactive": "",
       "icons": "true"
