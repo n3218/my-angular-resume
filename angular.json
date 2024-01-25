@@ -24,8 +24,7 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.scss"],
-            "scripts": ["src/script.js"],
-            "es5BrowserSupport": true
+            "scripts": ["src/script.js"]
           },
           "configurations": {
             "production": {
@@ -57,18 +56,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "my-angular-resume:build"
+            "buildTarget": "my-angular-resume:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "my-angular-resume:build:production"
+              "buildTarget": "my-angular-resume:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "my-angular-resume:build"
+            "buildTarget": "my-angular-resume:build"
           }
         },
         "test": {
@@ -119,5 +118,7 @@
       }
     }
   },
-  "defaultProject": "my-angular-resume"
+  "cli": {
+    "analytics": "a63b6b7e-62d6-45f8-948b-657032800f8b"
+  }
 }
