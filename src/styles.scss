@@ -4,6 +4,10 @@ $bg-light: #f2f3f7;
 $enable-responsive-font-sizes: true;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+:root {
+  --primary: #05bdda;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
