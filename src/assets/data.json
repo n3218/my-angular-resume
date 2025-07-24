@@ -410,7 +410,7 @@
       "description": "Knitters community, yarn / projects database and marketplace - UI design, eCommerce marketplace development (orders creation, handling and tracking), forum/community and photo gallery maintenance, end-user support.",
       "technologies": ["html", "css", "js", "php", "mysql"],
       "code": "",
-      "demo": "https://web.archive.org/web/20161008153817/http://yarnart.org/"
+      "demo": "https://web.archive.org/web/20130227195416/http://www.yarnart.org:80/"
     },
     {
       "projectname": "bm-buket.ru",
@@ -450,8 +450,8 @@
   "carouselitems": [
     {
       "title": "Frontend/React",
-      "subtitle": "Developer",
-      "text": "looking for a position related to React within the San Francisco Bay Area.",
+      "subtitle": "React Developer",
+      "text": "San Francisco Bay Area.",
       "image": "/assets/slide-9.jpg",
       "isactive": "active",
       "icons": ""

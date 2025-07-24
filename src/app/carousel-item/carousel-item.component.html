@@ -21,32 +21,40 @@
         <i class="fab fa-bootstrap fa-2x text-primary mr-3"></i>
         <i class="fab fa-angular fa-2x text-primary mr-3"></i>
       </div>
-    </div>
+      <div *ngIf="carouselItem.icons" class="_animate">
+        <a href="#projects" class="btn mt-4 mb-2">
+          <i class="fas fa-briefcase fa-lg"></i> View Portfolio
+        </a>
+      </div>
 
-    <div *ngIf="carouselItem.icons" class="_animate">
-      <a href="#projects" class="btn my-4">
-        <i class="fas fa-briefcase fa-lg"></i> View Portfolio
-      </a>
-    </div>
-
-    <div *ngIf="!carouselItem.icons" class="_animate">
-      <a
-        href="/assets/Natalia_Shport_CV_2024.pdf"
-        alt="CV in PDF format"
-        class="btn mt-4 mr-4"
-        target="_blank"
-        download="/assets/Natalia_Shport_CV_2024.pdf"
-      >
-        <i class="fas fa-file-pdf fa-lg"></i> Download pdf CV </a
-      ><br />
-      <a
-        href="/assets/Natalia_Shport_CV_2024.docx"
-        alt="CV in DOCX format"
-        download="Natalia_Shport_CV_2024.docx"
-        class="btn mt-4 mr-4"
-      >
-        <i class="fas fa-file-word fa-lg"></i> Download docx CV
-      </a>
+      <div *ngIf="!carouselItem.icons" class="_animate">
+        <a
+          href="/assets/N_Shport_CV_2025.pdf"
+          alt="CV in PDF format"
+          class="btn mt-4 mr-4"
+          target="_blank"
+          download="/assets/N_Shport_CV_2025.pdf"
+        >
+          <i class="fas fa-file-pdf fa-lg"></i> Download pdf CV
+        </a>
+        <br />
+        <a
+          href="/assets/N_Shport_CV_2025.docx"
+          alt="CV in DOCX format"
+          download="N_Shport_CV_2025.docx"
+          class="btn mt-4 mr-4"
+        >
+          <i class="fas fa-file-word fa-lg"></i> Download docx CV
+        </a>
+        <br />
+        <a
+          href="https://docs.google.com/document/d/14grg4lLhFcy_mHG-gl4hSFUN2yUuw9yYf-pD3a6KLf4/edit?usp=sharing"
+          alt="CV in GOOGLE DOCs"
+          class="btn mt-4 mr-4 mb-4"
+        >
+          <i class="fas fa-file-word fa-lg"></i> View in Google DOCs
+        </a>
+      </div>
     </div>
   </div>
 </div>
