@@ -323,6 +323,55 @@
       "demo": "https://y-collection.shport.info/"
     },
     {
+      "projectname": "rest-of-us",
+      "shortname": "rest-of-us",
+      "url": "https://agitated-goldwasser-275f0f.netlify.app/",
+      "dates": {
+        "start": {
+          "year": "2020"
+        }
+      },
+      "description": "SPA blog app / React, React Hooks, implemented form validation, ​authentication, “following” feature, realtime chat / React, MongoDB, Socket.io, deployed on Netlify.",
+      "technologies": [
+        "html5",
+        "css3",
+        "js",
+        "react",
+        "react-hooks",
+        "sass",
+        "mongodb",
+        "socketio",
+        "netlify"
+      ],
+      "code": "https://github.com/n3218/restOfUs",
+      "demo": "https://agitated-goldwasser-275f0f.netlify.app/"
+    },
+    {
+      "projectname": "e-catalogue",
+      "shortname": "e-catalogue",
+      "url": "https://e-ctlog.herokuapp.com/",
+      "dates": {
+        "start": {
+          "year": "2020"
+        }
+      },
+      "description": "E-commerce SPA application / React, Redux, Firebase, Google-authentication, Stripe payments, unit testing Jest, Progressive Web App.",
+      "technologies": [
+        "html5",
+        "css3",
+        "js",
+        "react",
+        "redux",
+        "sass",
+        "firebase",
+        "pwa",
+        "stripe",
+        "heroku"
+      ],
+      "code": "https://github.com/n3218/e-catalog",
+      "demo": "https://e-ctlog.herokuapp.com/"
+    },
+    {
       "projectname": "shport.info",
       "shortname": "info",
       "url": "http://shport.info",
